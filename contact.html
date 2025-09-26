@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Top Navigation Bar */
+    .top-nav {
+      background-color: orange;
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      color: white;
+    }
+
+    .top-nav button, .top-nav .nav-item {
+      background: none;
+      border: none;
+      color: white;
+      margin-right: 30px;
+      font-size: 19px;
+      cursor: pointer;
+    }
+
+    .top-nav .nav-item i {
+      margin-right: 10px;
+    }
+
+    /* Main Layout */
+    .main {
+      display: flex;
+      flex: 1;
+      gap: 20px;
+    }
+
+    /* Sidebar */
+    .sidebar {
+      width: 200px;
+      background-color: #f4f4f4;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .sidebar a {
+      display: block;
+      margin-bottom: 15px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    .box {
+      background-color: #ddd;
+      height: 150px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size:90px;
+      color: #555;
+    }
+
+    .cat-box {
+      background-color: #fff;
+      border: 2px dashed #aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Navigation -->
+  <div class="top-nav">
+    <button onclick="toggleMenu()">☰ Menu</button>
+    <img src="https://uploads.onecompiler.io/43xqq2fv6/43xqq3ppc/Logo2.png" alt="Custom Icon" style="height:70px; vertical-align:middle;">
+  </div>
+   </div>
+
+  <!-- Main Content -->
+  <div class="main">
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar">
+      <a href="index.html">Home</a>
+      <a href="aboutme.html">About Me</a>
+      <a href="contact.html">Contact</a>
+      <a href="Projects.html">Projects Inquiries</a>
+      <img src="https://uploads.onecompiler.io/43xqq2fv6/43xqq3ppc/Screenshot%202025-09-10%202.03.33%20PM.png" alt="Language Icon" style="width:100%; margin-top:10px;">
+    </div>
+
+    <!-- Content Grid -->
+    <div class="contact-container">
+    <h1>Contact Me</h1>
+
+    <div class="contact-info">
+    <p><strong>Name:</strong><span class="name-text"> Nahidur Choudhury</span></p>
+    <p><strong>Location:</strong> Paterson, New Jersey</p>
+    <p><strong>Email:</strong> 270376@pcti.mobi</p>
+    <p><strong>Phone Number:</strong> 862-846-7207</p>
+    </div>
+</div>
+  </div>   
+  <script src="scripts.js"></script>
+
+</body>
+</html>
